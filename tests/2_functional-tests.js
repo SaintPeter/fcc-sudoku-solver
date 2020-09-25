@@ -28,7 +28,8 @@ suite('Functional Tests', () => {
     const opts = {
       //headless: false,
       //slowMo: 25,
-      timeout: 10000
+      timeout: 10000,
+      args: ['--no-sandbox']
     };
 
     new Promise(async (resolve) => {
